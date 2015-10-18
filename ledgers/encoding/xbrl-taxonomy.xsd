@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XBRL Taxonomy for Historical Dutch Newspapers -->
+<!-- Adapted from http://xbrl.squarespace.com/journal/2008/12/18/hello-world-xbrl-example.html -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:paper="http://library.vanderbilt.edu/xbrl/dutch-papers"
+  targetNamespace="http://library.vanderbilt.edu/xbrl/dutch-papers" elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://www.xbrl.org/2003/instance"
+    schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <element name="abonnementen" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant"/>
+  <element name="verkochtenNos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="credit"/>
+  <element name="verkochtenPapier" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="credit"/>
+  <element name="advertentiën" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="credit"/>
+  <element name="inventaris" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="credit"/>
+  <element name="verlies" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="credit"/>
+  <element name="papier" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="afschrijvingen" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="bureauKosten" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="buitenstadscheExpeditie" type="xbrli:monetaryItemType"
+    substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="binnenstadscheExpeditie" type="xbrli:monetaryItemType"
+    substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="drukloon" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="levensverzekering" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="onkosten" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="postzegels" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="redactie" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="salaris" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="tijdschriften" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="winst" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+  <element name="ingehoudenWinsten" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item"
+    xbrli:periodType="instant" xbrli:balance="debit"/>
+</schema>

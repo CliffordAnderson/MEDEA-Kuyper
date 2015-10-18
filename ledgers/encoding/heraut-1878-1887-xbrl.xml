@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XBRL Instance Document for De Heraut, 1878-1887 -->
+<!-- Adapted from http://xbrl.squarespace.com/journal/2008/12/18/hello-world-xbrl-example.html -->
+<xbrl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.xbrl.org/2003/instance xbrl-kranten.xsd"
+   xmlns="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase"
+   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance"
+   xmlns:kranten="http://library.vanderbilt.edu/xbrl/dutch-papers"
+   xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
+   <link:schemaRef xlink:type="simple" xlink:href="xbrl-kranten.xsd"/>
+   <!-- Contexts -->
+   <context id="I-1878">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1878-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1879">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1879-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1880">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1880-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1881">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1881-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1882">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1882-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1883">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1883-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1884">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1884-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1885">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1885-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1886">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1886-12-31</instant>
+      </period>
+   </context>
+   <context id="I-1887">
+      <entity>
+         <identifier scheme="https://nl.wikipedia.org/wiki/De_Heraut">De Heraut</identifier>
+      </entity>
+      <period>
+         <instant>1887-12-31</instant>
+      </period>
+   </context>
+   <!-- Units -->
+   <unit id="U-Monetary">
+      <measure>iso4217:NLG</measure>
+   </unit>
+   <!-- Fact values -->
+   <kranten:abonnementen id="Fact-abonnementen-1878" contextRef="I-1878" unitRef="U-Monetary"
+      decimals="INF">9536.095</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1879" contextRef="I-1879" unitRef="U-Monetary"
+      decimals="INF">9153.44</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1880" contextRef="I-1880" unitRef="U-Monetary"
+      decimals="INF">8962.01</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1881" contextRef="I-1881" unitRef="U-Monetary"
+      decimals="INF">9138.535</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1882" contextRef="I-1882" unitRef="U-Monetary"
+      decimals="INF">10652.29</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1883" contextRef="I-1883" unitRef="U-Monetary"
+      decimals="INF">11077.59</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1884" contextRef="I-1884" unitRef="U-Monetary"
+      decimals="INF">11090.88</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1885" contextRef="I-1885" unitRef="U-Monetary"
+      decimals="INF">11414.15</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1886" contextRef="I-1886" unitRef="U-Monetary"
+      decimals="INF">14487.645</kranten:abonnementen>
+   <kranten:abonnementen id="Fact-abonnementen-1887" contextRef="I-1887" unitRef="U-Monetary"
+      decimals="INF">8402.175</kranten:abonnementen>
+   <kranten:advertentiën id="Fact-advertentiën-1878" contextRef="I-1878" unitRef="U-Monetary"
+      decimals="INF">581.955</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1879" contextRef="I-1879" unitRef="U-Monetary"
+      decimals="INF">552.8</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1880" contextRef="I-1880" unitRef="U-Monetary"
+      decimals="INF">643.82</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1881" contextRef="I-1881" unitRef="U-Monetary"
+      decimals="INF">741.645</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1882" contextRef="I-1882" unitRef="U-Monetary"
+      decimals="INF">758.245</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1883" contextRef="I-1883" unitRef="U-Monetary"
+      decimals="INF">720.11</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1884" contextRef="I-1884" unitRef="U-Monetary"
+      decimals="INF">733.745</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1885" contextRef="I-1885" unitRef="U-Monetary"
+      decimals="INF">564.455</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1886" contextRef="I-1886" unitRef="U-Monetary"
+      decimals="INF">746.375</kranten:advertentiën>
+   <kranten:advertentiën id="Fact-advertentiën-1887" contextRef="I-1887" unitRef="U-Monetary"
+      decimals="INF">475.715</kranten:advertentiën>
+   <kranten:verlies id="Fact-verlies-1878" contextRef="I-1878" unitRef="U-Monetary" decimals="INF"
+      >1334.615</kranten:verlies>
+   <kranten:verlies id="Fact-verlies-1879" contextRef="I-1879" unitRef="U-Monetary" decimals="INF"
+      >280.745</kranten:verlies>
+   <kranten:verlies id="Fact-verlies-1880" contextRef="I-1880" unitRef="U-Monetary" decimals="INF"
+      >347.275</kranten:verlies>
+   <kranten:verkochtenPapier id="Fact-verkochtenPapier-1880" contextRef="I-1880"
+      unitRef="U-Monetary" decimals="INF">33.6</kranten:verkochtenPapier>
+   <kranten:verkochtenPapier id="Fact-verkochtenPapier-1881" contextRef="I-1881"
+      unitRef="U-Monetary" decimals="INF">1.68</kranten:verkochtenPapier>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1878" contextRef="I-1878" unitRef="U-Monetary"
+      decimals="INF">20.315</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1879" contextRef="I-1879" unitRef="U-Monetary"
+      decimals="INF">13.195</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1880" contextRef="I-1880" unitRef="U-Monetary"
+      decimals="INF">127.03</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1881" contextRef="I-1881" unitRef="U-Monetary"
+      decimals="INF">173.915</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1882" contextRef="I-1882" unitRef="U-Monetary"
+      decimals="INF">29.09</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1883" contextRef="I-1883" unitRef="U-Monetary"
+      decimals="INF">30.11</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1884" contextRef="I-1884" unitRef="U-Monetary"
+      decimals="INF">31.935</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1885" contextRef="I-1885" unitRef="U-Monetary"
+      decimals="INF">47.865</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1886" contextRef="I-1886" unitRef="U-Monetary"
+      decimals="INF">273.34</kranten:verkochtenNos>
+   <kranten:verkochtenNos id="Fact-verkochtenNos-1887" contextRef="I-1887" unitRef="U-Monetary"
+      decimals="INF">172.61</kranten:verkochtenNos>
+   <kranten:inventaris contextRef="I-1884" unitRef="U-Monetary">241</kranten:inventaris>
+   <kranten:inventaris contextRef="I-1886" unitRef="U-Monetary">226.95</kranten:inventaris>
+   <kranten:ingehoudenWinsten contextRef="I-1885" unitRef="U-Monetary"
+      >845.41</kranten:ingehoudenWinsten>
+   <kranten:papier id="Fact-papier-1878" contextRef="I-1878" unitRef="U-Monetary"
+      >2230.15</kranten:papier>
+   <kranten:papier id="Fact-papier-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >1849.17</kranten:papier>
+   <kranten:papier id="Fact-papier-1880" contextRef="I-1880" unitRef="U-Monetary"
+      >1898.88</kranten:papier>
+   <kranten:papier id="Fact-papier-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >1795.27</kranten:papier>
+   <kranten:papier id="Fact-papier-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >1485.8</kranten:papier>
+   <kranten:papier id="Fact-papier-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >1598.94</kranten:papier>
+   <kranten:papier id="Fact-papier-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >1543.46</kranten:papier>
+   <kranten:papier id="Fact-papier-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >1190.115</kranten:papier>
+   <kranten:papier id="Fact-papier-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >1273.79</kranten:papier>
+   <kranten:papier id="Fact-papier-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >1193.88</kranten:papier>
+   <kranten:bureauKosten id="Fact-bureauKosten-1878" contextRef="I-1878" unitRef="U-Monetary"
+      >179.71</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >25</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1880" contextRef="I-1880" unitRef="U-Monetary"
+      >22.7</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >44</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >11.95</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >55.25</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >8.35</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >27.95</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >105.1</kranten:bureauKosten>
+   <kranten:bureauKosten id="Fact-bureauKosten-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >56.25</kranten:bureauKosten>
+   <kranten:tijdschriften id="Fact-tijdschriften-1878" contextRef="I-1878" unitRef="U-Monetary"
+      >196.3</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >164.41</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1880" contextRef="I-1880" unitRef="U-Monetary"
+      >173.37</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >161.12</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >149.22</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >103</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >124.83</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >112.615</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >113.6</kranten:tijdschriften>
+   <kranten:tijdschriften id="Fact-tijdschriften-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >107.21</kranten:tijdschriften>
+   <kranten:drukloon id="Fact-drukloon-1878" contextRef="I-1878" unitRef="U-Monetary"
+      >3368.65</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >2976.46</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1880" contextRef="I-1880" unitRef="U-Monetary"
+      >3058.92</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >2929.25</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >3001.54</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >2987.14</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >2989.46</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >3011.64</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >3432.14</kranten:drukloon>
+   <kranten:drukloon id="Fact-drukloon-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >1923.18</kranten:drukloon>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1878" contextRef="I-1878"
+      unitRef="U-Monetary">428.96</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1879" contextRef="I-1879"
+      unitRef="U-Monetary">227.24</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1880" contextRef="I-1880"
+      unitRef="U-Monetary">207.24</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1881" contextRef="I-1881"
+      unitRef="U-Monetary">256.2</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1882" contextRef="I-1882"
+      unitRef="U-Monetary">203.44</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1883" contextRef="I-1883"
+      unitRef="U-Monetary">240.5</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1884" contextRef="I-1884"
+      unitRef="U-Monetary">247.45</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1885" contextRef="I-1885"
+      unitRef="U-Monetary">274.55</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1886" contextRef="I-1886"
+      unitRef="U-Monetary">287.7</kranten:buitenstadscheExpeditie>
+   <kranten:buitenstadscheExpeditie id="Fact-buitenstadscheExpeditie-1887" contextRef="I-1887"
+      unitRef="U-Monetary">262.1</kranten:buitenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1878" contextRef="I-1878"
+      unitRef="U-Monetary">30</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1879" contextRef="I-1879"
+      unitRef="U-Monetary">62.4</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1880" contextRef="I-1880"
+      unitRef="U-Monetary">62.4</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1881" contextRef="I-1881"
+      unitRef="U-Monetary">63.8</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1882" contextRef="I-1882"
+      unitRef="U-Monetary">67.6</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1883" contextRef="I-1883"
+      unitRef="U-Monetary">67.6</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1884" contextRef="I-1884"
+      unitRef="U-Monetary">67.6</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1885" contextRef="I-1885"
+      unitRef="U-Monetary">67.7</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1886" contextRef="I-1886"
+      unitRef="U-Monetary">82.9</kranten:binnenstadscheExpeditie>
+   <kranten:binnenstadscheExpeditie id="Fact-binnenstadscheExpeditie-1887" contextRef="I-1887"
+      unitRef="U-Monetary">46.8</kranten:binnenstadscheExpeditie>
+   <kranten:onkosten id="Fact-onkosten-1878" contextRef="I-1878" unitRef="U-Monetary"
+      >538.565</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >376.405</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1880" contextRef="I-1880" unitRef="U-Monetary"
+      >469.365</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >496.33</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >484.71</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >527.415</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >1106.105</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >1012.03</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >1040.41</kranten:onkosten>
+   <kranten:onkosten id="Fact-onkosten-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >313.9</kranten:onkosten>
+   <kranten:postzegels id="Fact-postzegels-1878" contextRef="I-1878" unitRef="U-Monetary"
+      >1325.645</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >1083.415</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1880" contextRef="I-1880" unitRef="U-Monetary"
+      >960.86</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >1023.495</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >1098.56</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >1068.375</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >1074.345</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >1135.22</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >1402.285</kranten:postzegels>
+   <kranten:postzegels id="Fact-postzegels-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >904.155</kranten:postzegels>
+   <kranten:redactie id="Fact-redactie-1878" contextRef="I-1878" unitRef="U-Monetary"
+      >2950</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >2860</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1880" contextRef="I-1880" unitRef="U-Monetary"
+      >2860</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >2870</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >3750</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >3660</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >3660</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >4115</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >4518.8</kranten:redactie>
+   <kranten:redactie id="Fact-redactie-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >1877.15</kranten:redactie>
+   <kranten:salaris id="Fact-salaris-1878" contextRef="I-1878" unitRef="U-Monetary"
+      >225</kranten:salaris>
+   <kranten:salaris id="Fact-salaris-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >300</kranten:salaris>
+   <kranten:salaris id="Fact-salaris-1880" contextRef="I-1880" unitRef="U-Monetary"
+      >400</kranten:salaris>
+   <kranten:salaris id="Fact-salaris-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >348</kranten:salaris>
+   <kranten:salaris id="Fact-salaris-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >352</kranten:salaris>
+   <kranten:salaris id="Fact-salaris-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >404</kranten:salaris>
+   <kranten:salaris id="Fact-salaris-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >404</kranten:salaris>
+   <kranten:salaris id="Fact-salaris-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >404</kranten:salaris>
+   <kranten:salaris id="Fact-salaris-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >438</kranten:salaris>
+   <kranten:winst id="Fact-winst-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >60.25</kranten:winst>
+   <kranten:winst id="Fact-winst-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >18.55</kranten:winst>
+   <kranten:winst id="Fact-winst-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >1080.29</kranten:winst>
+   <kranten:winst id="Fact-winst-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >851.25</kranten:winst>
+   <kranten:winst id="Fact-winst-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >1499.11</kranten:winst>
+   <kranten:winst id="Fact-winst-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >2830.835</kranten:winst>
+   <kranten:winst id="Fact-winst-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >1887.26</kranten:winst>
+   <kranten:afschrijvingen id="Fact-afschrijvingen-1879" contextRef="I-1879" unitRef="U-Monetary"
+      >75.68</kranten:afschrijvingen>
+   <kranten:afschrijvingen id="Fact-afschrijvingen-1881" contextRef="I-1881" unitRef="U-Monetary"
+      >8.06</kranten:afschrijvingen>
+   <kranten:afschrijvingen id="Fact-afschrijvingen-1882" contextRef="I-1882" unitRef="U-Monetary"
+      >18.55</kranten:afschrijvingen>
+   <kranten:afschrijvingen id="Fact-afschrijvingen-1883" contextRef="I-1883" unitRef="U-Monetary"
+      >35.5</kranten:afschrijvingen>
+   <kranten:afschrijvingen id="Fact-afschrijvingen-1884" contextRef="I-1884" unitRef="U-Monetary"
+      >20.71</kranten:afschrijvingen>
+   <kranten:afschrijvingen id="Fact-afschrijvingen-1885" contextRef="I-1885" unitRef="U-Monetary"
+      >21.95</kranten:afschrijvingen>
+   <kranten:afschrijvingen id="Fact-afschrijvingen-1886" contextRef="I-1886" unitRef="U-Monetary"
+      >13.80</kranten:afschrijvingen>
+   <kranten:afschrijvingen id="Fact-afschrijvingen-1887" contextRef="I-1887" unitRef="U-Monetary"
+      >6.77</kranten:afschrijvingen>
+   <kranten:levensverzekering id="Fact-levensverzekering-1887" contextRef="I-1887"
+      unitRef="U-Monetary">260.8</kranten:levensverzekering>
+   <!-- Footnotes -->
+   <link:footnoteLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:loc xlink:href="#Fact-abonnementen-1878" xlink:label="Fact-abonnementen-1878"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1879" xlink:label="Fact-abonnementen-1879"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1880" xlink:label="Fact-abonnementen-1880"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1881" xlink:label="Fact-abonnementen-1881"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1882" xlink:label="Fact-abonnementen-1882"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1883" xlink:label="Fact-abonnementen-1883"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1884" xlink:label="Fact-abonnementen-1884"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1885" xlink:label="Fact-abonnementen-1885"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1886" xlink:label="Fact-abonnementen-1886"
+         xlink:type="locator"/>
+      <link:loc xlink:href="#Fact-abonnementen-1887" xlink:label="Fact-abonnementen-1887"
+         xlink:type="locator"/>
+      <link:footnoteArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1878" xlink:to="Footnote-abonnementen-1878" xlink:type="arc"/>
+      <link:footnoteArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1879" xlink:to="Footnote-abonnementen-1879" xlink:type="arc"/>
+      <link:footnoteArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1880" xlink:to="Footnote-abonnementen-1880" xlink:type="arc"/>
+      <link:footnoteArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1881" xlink:to="Footnote-abonnementen-1881" xlink:type="arc"/>
+      <link:footnoteArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1882" xlink:to="Footnote-abonnementen-1882" xlink:type="arc"/>
+      <link:footnoteArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1883" xlink:to="Footnote-abonnementen-1883" xlink:type="arc"/>
+      <link:footnoteArc order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1884" xlink:to="Footnote-abonnementen-1884" xlink:type="arc"/>
+      <link:footnoteArc order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1885" xlink:to="Footnote-abonnementen-1885" xlink:type="arc"/>
+      <link:footnoteArc order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1886" xlink:to="Footnote-abonnementen-1886" xlink:type="arc"/>
+      <link:footnoteArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"
+         xlink:from="Fact-abonnementen-1887" xlink:to="Footnote-abonnementen-1887" xlink:type="arc"/>
+      <link:footnote xlink:label="Footnote-abonnementen-1878"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 2601 Abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1879"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 2512 Abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1880"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 2437 Abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1881"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 2497 Abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1882"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 2410 Abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1883"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 2466 Abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1884"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 2494 Abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1885"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 2630 Abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1886"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 3275 abonnementen</link:footnote>
+      <link:footnote xlink:label="Footnote-abonnementen-1887"
+         xlink:role="http://www.xbrl.org/2003/role/footnote" xlink:type="resource" xml:lang="en-US">
+         Per 3750 abonnementen</link:footnote>
+   </link:footnoteLink>
+</xbrl>

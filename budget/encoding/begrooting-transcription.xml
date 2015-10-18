@@ -1,0 +1,305 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:fr="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Begrooting Standaard en Heraut</title>
+            <editor>Clifford B. Anderson</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Historische Documentatie Centrum voor Nederlandse Protestantise,
+               1801-Heden</authority>
+            <authority>Princeton Theological Seminary</authority>
+            <distributor>Digital Library of Abraham Kuyper</distributor>
+            <idno>http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Begroting van ontvangsten en uitgaven voor De Standaard en De Heraut</title>
+               <author>G.J.C. Herdes</author>
+               <date when-iso="1897-5-10">10 mei 1897</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1"/>
+         <div>
+            <head>Zetwerk</head>
+            <p>Een gewoon nummer van "De Standaard" beststaat uit p.m. 1900 Regels platschrift, n.m.
+                  <table rows="4" cols="10">
+                  <row role="data">
+                     <cell role="label">op de</cell>
+                     <cell role="data">1e</cell>
+                     <cell role="label">pagina</cell>
+                     <cell role="data">5</cell>
+                     <cell role="label">kolom</cell>
+                     <cell role="label">a</cell>
+                     <cell role="data">145</cell>
+                     <cell role="label">regels =</cell>
+                     <cell role="data">725</cell>
+                     <cell role="label">Regels</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">" "</cell>
+                     <cell role="data">2e</cell>
+                     <cell role="label">"</cell>
+                     <cell role="data">5</cell>
+                     <cell role="label">"</cell>
+                     <cell role="label">"</cell>
+                     <cell role="data">160</cell>
+                     <cell role="label">"</cell>
+                     <cell role="data">800</cell>
+                     <cell role="label">"</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">" "</cell>
+                     <cell role="data">3e</cell>
+                     <cell role="label">pagina</cell>
+                     <cell role="data">5</cell>
+                     <cell role="label">"</cell>
+                     <cell role="label">"</cell>
+                     <cell role="data">75</cell>
+                     <cell role="label">"</cell>
+                     <cell role="data">375</cell>
+                     <cell role="label">"</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label"/>
+                     <cell role="data"/>
+                     <cell role="label"/>
+                     <cell role="data"/>
+                     <cell role="label"/>
+                     <cell role="label"/>
+                     <cell role="data"/>
+                     <cell role="label">tezamen</cell>
+                     <cell role="data">1900</cell>
+                     <cell role="label"/>
+                  </row>
+               </table></p>
+            <p>Behoefte nimmer op copie te worden gewacht, dan zouden deze 1900 Rgels door 9 Zetters
+               en een Meester Knecht van 's morgens 7 tot 's namiddags 3 uur kunnen worden gezet,
+               gecorrigeerd en opgemaakt in vormen. Voor de 4de or advertentie pagina zijn gemiddeld
+               2 zetters nooding en voor de <unclear>effectennotering</unclear> één, onder deze
+               verstande echter dat deze 3 zetters eerst helpen an de platte paginas des courant,
+               noch later op hun beurt door de anderen worden geholpen als de
+                  <unclear>effectennotering</unclear> van de Beurs komen of veel nieuwe annonces
+               zijn te zetten.</p>
+            <p>Het zetten van een dagblad brengt echter tal van eigenaardige bezwaren mede, als: het
+               wachten op en moeilijk te lezen copie, lastige en herhaalde correctie, uistellen van
+               reeds gezette stukken en het opnieuw zetten van meer dringenden copie, wat gevolge
+               heeft dat voor een dagblad in omvang als b.v. de Standaard 15 zetters en een Meester
+               Knecht zullen nodig blijken.</p>
+            <p>De vermeerdering van personnel kan echter ten nuchte worden gemaakt en wel in vrijen
+               tijd zetten van een Bijvoegsel zoor Zaterdag &amp; en de Heraut voor Vrijdag. Voor
+               het zetten, corrigeren, en opmaken van Standaard, Bijvoegsel, en Heraut zal voor
+               arbeidsloon per week worden uitgerekend een bedrag van <measure type="currency"
+                  unit="NLG">f195</measure>= als: <table rows="4" cols="12">
+                  <row role="data">
+                     <cell role="data">voor 15 Zetters</cell>
+                     <cell role="data">6x10 uur</cell>
+                     <cell role="data">a <measure type="currency" unit="NLG">20 ct</measure>per
+                        uur</cell>
+                     <cell role="data"><measure type="currency" unit="NLG">f180</measure></cell>
+                  </row>
+               </table>
+            </p>
+            <note>Fr. v. v. pl.</note>
+         </div>
+         <pb n="2"/>
+         <div>
+            <head>Drukken</head>
+            <p>Voor het drukken en vouwen van dag- of weekbladen wordt bij kleine oplage altijd
+                  <measure type="currency" unit="NLG">f3.0</measure> per exemplaren berekenen. Bij
+               rotatiedruk, al naar vehouding van het kranten, van <measure type="currency"
+                  unit="NLG">f1.50 - f2.50</measure> per 1000 exemp.</p>
+            <p>Voor het drukken en vouwen van <table rows="3" cols="2">
+                  <row role="data">
+                     <cell role="data">3000 Ex.</cell>
+                     <cell role="data">De Standaard</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="data">3000 Ex.</cell>
+                     <cell role="data">Bijvoegsel (Zaterd.) 2 pag.</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="data">3000 Ex.</cell>
+                     <cell role="data">Heraut (Vrijdag)</cell>
+                  </row>
+               </table> zou dus in rekening worden gebracht: <table rows="4" cols="3">
+                  <row role="data">
+                     <cell role="label">Standaard</cell>
+                     <cell role="data">3 x f3.= per dag of 9 x 6 gld. per week =</cell>
+                     <cell role="data"><measure type="currency" unit="NLG">f54.=</measure></cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">Bijvoegsel</cell>
+                     <cell role="data">2 paginas (Zaterdag)</cell>
+                     <cell role="data"><measure type="currency" unit="NLG">4.50</measure></cell>
+                  </row>
+                  <row role="data">
+                     <cell role="data">Heraut</cell>
+                     <cell role="data">4 " (Vrijdag)</cell>
+                     <cell role="data"><measure type="currency" unit="NLG">9.-</measure></cell>
+                  </row>
+                  <row role="data">
+                     <cell role="data"/>
+                     <cell role="data">aan drukloon per week</cell>
+                     <cell role="data"><measure type="currency" unit="NLG">f 67.50</measure></cell>
+                  </row>
+               </table> Voor Standaard, Heraut, en Bijvoegsel worden voor ieder honderdtal daarboven
+                  <measure type="currency" unit="NLG">f 0.30</measure> berekend. </p>
+         </div>
+         <div>
+            <head>Papier</head>
+            <p>De drukstof waarop de Standaard wordt gedrukt weegt 20 gram per vel; de Heraut
+                  <unclear>32</unclear> per vel. Een riem papier van 500 vel plano zal dus wegen
+               voor "de Standaard" 10 kilo en voor "De Heraut" 16 kilo.</p>
+            <p> In één week zal dus verbruikt worden: <table rows="4" cols="4">
+                  <row role="data">
+                     <cell role="label">Standaard</cell>
+                     <cell role="data">60 kilo per dag of 6 x 60 = </cell>
+                     <cell role="data">360 K. p/week</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">Bijvoegsel</cell>
+                     <cell role="data">van 2 paginas Zaterdag</cell>
+                     <cell role="data">30 kilo</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="data">Heraut</cell>
+                     <cell role="data">" 4 " Vrijdag</cell>
+                     <cell role="data">96 "</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="data"/>
+                     <cell role="data">totaal per week</cell>
+                     <cell role="data">406 Kilo</cell>
+                  </row>
+               </table> De drukstof gerekend op <measure unit="NLG" type="currency">f14.-</measure>
+               geft dus een uitgave van papier per week van <measure unit="NLG" type="currency"
+                  >486</measure> x <measure unit="NLG" type="currency">f 14-</measure> = <measure
+                  unit="NLG" type="currency">f68.04</measure>. </p>
+         </div>
+         <div>
+            <head>Totaal</head>
+            <p>Het zetten en drukken met inbegrip van Papier van 3000 Stand. 300 Bijv. en 3000
+               Heraut zal dus kosten per week: <table rows="6" cols="2">
+                  <row role="data">
+                     <cell role="label">Zetten Corrigeeren &amp; Opmaken</cell>
+                     <cell role="data"><measure unit="NLG" type="currency"/>195.-</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">Drukken en Vouwen</cell>
+                     <cell role="data"><measure unit="NLG" type="currency"/>67.50</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">Papierrekening</cell>
+                     <cell role="data"><measure unit="NLG" type="currency"/>68.04</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label"/>
+                     <cell role="data"><measure unit="NLG" type="currency"/>f 330.54</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">plus 30 % opslag</cell>
+                     <cell role="data"><measure unit="NLG" type="currency"/>99.16</cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">totaal onkosten per week</cell>
+                     <cell role="data"><measure unit="NLG" type="currency"/>f 429.70</cell>
+                  </row>
+               </table> Deze 30 proc. opslag dient voor: vergoeding<note>Fr. v. v. pl.</note><pb
+                  n="3"/>
+            </p>
+            <p>Tot zoover de uitgaven en onkosten en nu vermoedelijke ontvangsten van 3000
+               Abonnenden op De Standaard, 3000 Abonn. op de Heraut en de opbrengsten van de
+               Advertentiën.</p>
+         </div>
+         <div>
+            <div>
+               <head>Abonnementen gelden</head>
+               <table rows="3" cols="2">
+                  <row role="data">
+                     <cell role="label">3000 Abonn. Standaard a <measure unit="NLG" type="currency"
+                           >f 10.-</measure>p. jaar</cell>
+                     <cell role="data"><measure unit="NLG" type="currency">f 30000</measure></cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">3000 id Heraut - 4.80 "</cell>
+                     <cell role="data"><measure unit="NLG" type="currency">f 14400</measure></cell>
+                  </row>
+                  <row role="data">
+                     <cell role="data"/>
+                     <cell role="data"><measure unit="NLG" type="currency">f
+                        44400.=</measure></cell>
+                  </row>
+               </table>
+            </div>
+            <div>
+               <head> Advertentiën </head>
+               <table rows="3" cols="2">
+                  <row role="data">
+                     <cell role="label">De Standaard p/wk <measure unit="NLG" type="currency">f
+                           150.-</measure>of p/j 52 x<measure type="currency" unit="NLG">f.
+                           150</measure> jaar</cell>
+                     <cell role="data"><measure unit="NLG" type="currency">f 7800</measure></cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">De Heraut " " 25.= " " 52 x <measure unit="NLG"
+                           type="currency">1300</measure></cell>
+                     <cell role="data"><measure unit="NLG" type="currency">f 14400</measure></cell>
+                  </row>
+                  <row role="data">
+                     <cell role="data"/>
+                     <cell role="data"><measure unit="NLG" type="currency">f
+                        44400.=</measure></cell>
+                  </row>
+               </table>
+            </div>
+            <div>
+               <table rows="3" cols="2">
+                  <row role="data">
+                     <cell role="label"/>
+                     <cell role="data"><measure unit="NLG" type="currency">" 9100.=</measure></cell>
+                  </row>
+                  <row role="data">
+                     <cell role="label">Totaal onvangsten p/jaar</cell>
+                     <cell role="data"><measure unit="NLG" type="currency">f
+                        53500.=</measure></cell>
+                  </row>
+               </table>
+               <p>Aangezien hetzelfde personeel van "de Standaard" ook "de Heraut" kan zetten,
+                  drukken, vouwen, bandeeren, <unclear>expedieeren</unclear>,
+                     <unclear>zondbrengen</unclear> is de begrooting is voor beide bladen tezamen
+                  genomen.</p>
+            </div>
+         </div>
+         <div>
+            <p>Mocht u ons een zuivere berekening te kunnen maken de drukkosten van "De Heraut"
+               afzonderlijk wenschen te weten, dan ben ik zoo vrij u te noteeren voor: </p>
+            <div>
+               <p>3000 Exemplaren "De Heraut" voor Zetten, Drukken, Bandeeren, Expedieëren, Bezorgen
+                  in de stad met bijlevering van papier per nummer <measure unit="NLG"
+                     type="currency">f. 72.07</measure> of per jaar 52 x <measure type="currency"
+                     unit="NLG">f 72.07</measure> of <measure unit="NLG" type="currency">f
+                     3747.64</measure>.</p>
+               <p>Voor Kantoorhuur, Administratie, &amp; anderen Onkosten zou "de Heraut" als
+                  weekblad gevoegelijk 1/6 kunnen bijdragen, tegen 5/6 van "De Standaard" die 6 x
+                  per week verschijnt.</p>
+            </div>
+         </div>
+         <div>
+            <p>En hiermade, Hooggeleerde Heer, hoop ik te hebben voldaan aan uw geëerd verzoek om uw
+               een en ander U een zoo volledig en gespecificeerd mogelijk begrooting te maken voor
+               Standaard en Heraut.</p>
+            <p>Tot het geven van nadere inlichtingen en meer gedétailleerde opgaven houdt zich
+               beleefdelijk aanbevolen.</p>
+         </div>
+         <salute>Met de meeste hogachting, <unclear>uw om.</unclear>dienaar.</salute>
+         <signed>G.J.C. Herdes</signed>
+      </body>
+   </text>
+</TEI>

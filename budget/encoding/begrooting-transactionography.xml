@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transactionography.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Begrooting Standaard en Heraut</title>
+            <editor>Clifford B. Anderson</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Historische Documentatie Centrum voor Nederlandse Protestantise,
+               1801-Heden</authority>
+            <authority>Princeton Theological Seminary</authority>
+            <distributor>Digital Library of Abraham Kuyper</distributor>
+            <idno>http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Begroting van ontvangsten en uitgaven voor De Standaard en De Heraut</title>
+               <author>G.J.C. Herdes</author>
+               <date when-iso="1897-5-10">10 mei 1897</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Recapitulatie</head>
+         <div>
+            <div>
+               <head>Ontvangsten</head>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">3000 Abonnemten Standaard a f10 =
+                        p/jaar f 30000.=</note>
+                     <transfer fra="Ontvangsten" til="Uitgaven">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="30000" commodity="abonnementen"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">3000 id. Heraut 4.80 " "
+                        14400.=</note>
+                     <transfer fra="Ontvangsten" til="Uitgaven">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="14400" commodity="abonnementen"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Advertentiën Standaard 52 x f150.= "
+                        " f7800</note>
+                     <transfer fra="Ontvangsten" til="Uitgaven">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="7800" commodity="advertentiën"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Advertentiën Heraut 52 x f25.= " "
+                        1300</note>
+                     <transfer fra="Ontvangsten" til="Uitgaven">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="1300" commodity="advertentiën"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+            </div>
+            <div>
+               <head>Uitgaven</head>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Zetten, Drukken, Vouwen, Papier voor
+                        Standaard en de Heraut p/w. f 429 of p/jaar f. 22344.40</note>
+                     <transfer fra="Uitgaven" til="Ontvangsten">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="22344.40" commodity="drukloon papier"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Bandeeren, Expeditie, en Rondbrengen
+                        per week f56.= per jaar 52 x 56 gld</note>
+                     <transfer fra="Uitgaven" til="Ontvangsten">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="2912" commodity="binnenstadscheExpeditie buitenstadscheExpeditie postzegels"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Kantoorhuur, Schoonhouden,
+                        Verwarming, Verlichting, Koffie, Brood (12 week), Pennen, Potlooden, Inkt,
+                        Papier, Kantoorboeken, Portos, Kantoordriekwest en dergelijke</note>
+                     <transfer fra="Uitgaven" til="Ontvangsten">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="1600" commodity="bureauKosten onkosten"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Personeel, Salaris 4 bedienden f
+                        1200.=</note>
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Advertentie cosponseur " 600.=</note>
+                     <transfer fra="Uitgaven" til="Ontvangsten">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="1800" commodity="salaris"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+               <listTransaction
+                  xmlns="http://www.wheatoncollege.edu/tei-extensions/financialRecords/1.0">
+                  <transaction source="http://kuyper.ptsem.edu/id/Kuyper185-192/dmd038">
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Redactie, Medewerkers, Verslaggevers,
+                        Correspondenten, Corrector, Telegrammen, Portos, Directeur, Uitgever,
+                        Onvoorziene uitgaven en Winst f. 24843.60</note>
+                     <transfer fra="Uitgaven" til="Ontvangsten">
+                        <measure xmlns="http://www.tei-c.org/ns/1.0" unit="DLG" type="currency"
+                           quantity="24843.60" commodity="redactie winst"/>
+                     </transfer>
+                  </transaction>
+               </listTransaction>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
