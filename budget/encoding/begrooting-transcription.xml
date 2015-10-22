@@ -96,13 +96,14 @@
                tijd zetten van een Bijvoegsel zoor Zaterdag &amp; en de Heraut voor Vrijdag. Voor
                het zetten, corrigeren, en opmaken van Standaard, Bijvoegsel, en Heraut zal voor
                arbeidsloon per week worden uitgerekend een bedrag van <measure type="currency"
-                  unit="NLG">f195</measure>= als: <table rows="4" cols="12">
+                  unit="NLG" quantity="195">f195</measure>= als: <table rows="4" cols="12">
                   <row role="data">
                      <cell role="data">voor 15 Zetters</cell>
                      <cell role="data">6x10 uur</cell>
-                     <cell role="data">a <measure type="currency" unit="NLG">20 ct</measure>per
-                        uur</cell>
-                     <cell role="data"><measure type="currency" unit="NLG">f180</measure></cell>
+                     <cell role="data">a <measure type="currency" unit="NLG" quantity=".20">20
+                           ct</measure>per uur</cell>
+                     <cell role="data"><measure type="currency" unit="NLG" quantity="180"
+                           >f180</measure></cell>
                   </row>
                </table>
             </p>
@@ -112,9 +113,11 @@
          <div>
             <head>Drukken</head>
             <p>Voor het drukken en vouwen van dag- of weekbladen wordt bij kleine oplage altijd
-                  <measure type="currency" unit="NLG">f3.0</measure> per exemplaren berekenen. Bij
-               rotatiedruk, al naar vehouding van het kranten, van <measure type="currency"
-                  unit="NLG">f1.50 - f2.50</measure> per 1000 exemp.</p>
+                  <measure type="currency" unit="NLG" quantity="3">f3.0</measure> per exemplaren
+               berekenen. Bij rotatiedruk, al naar vehouding van het kranten, van
+                     <measureGrp><measure type="currency" unit="NLG" quantity="1.5">f1.50</measure>
+                  - <measure type="currency" unit="NLG" quantity="2.5">f2.50</measure></measureGrp>
+               per 1000 exemp.</p>
             <p>Voor het drukken en vouwen van <table rows="3" cols="2">
                   <row role="data">
                      <cell role="data">3000 Ex.</cell>
@@ -132,25 +135,29 @@
                   <row role="data">
                      <cell role="label">Standaard</cell>
                      <cell role="data">3 x f3.= per dag of 9 x 6 gld. per week =</cell>
-                     <cell role="data"><measure type="currency" unit="NLG">f54.=</measure></cell>
+                     <cell role="data"><measure type="currency" unit="NLG" quantity="54"
+                           >f54.=</measure></cell>
                   </row>
                   <row role="data">
                      <cell role="label">Bijvoegsel</cell>
                      <cell role="data">2 paginas (Zaterdag)</cell>
-                     <cell role="data"><measure type="currency" unit="NLG">4.50</measure></cell>
+                     <cell role="data"><measure type="currency" unit="NLG" quantity="4.5"
+                           >4.50</measure></cell>
                   </row>
                   <row role="data">
                      <cell role="data">Heraut</cell>
                      <cell role="data">4 " (Vrijdag)</cell>
-                     <cell role="data"><measure type="currency" unit="NLG">9.-</measure></cell>
+                     <cell role="data"><measure type="currency" unit="NLG" quantity="9"
+                           >9.-</measure></cell>
                   </row>
                   <row role="data">
                      <cell role="data"/>
                      <cell role="data">aan drukloon per week</cell>
-                     <cell role="data"><measure type="currency" unit="NLG">f 67.50</measure></cell>
+                     <cell role="data"><measure type="currency" unit="NLG" quantity="67.50">f
+                           67.50</measure></cell>
                   </row>
                </table> Voor Standaard, Heraut, en Bijvoegsel worden voor ieder honderdtal daarboven
-                  <measure type="currency" unit="NLG">f 0.30</measure> berekend. </p>
+                  <measure type="currency" unit="NLG" quantity=".3">f 0.30</measure> berekend. </p>
          </div>
          <div>
             <head>Papier</head>
@@ -178,10 +185,11 @@
                      <cell role="data">totaal per week</cell>
                      <cell role="data">406 Kilo</cell>
                   </row>
-               </table> De drukstof gerekend op <measure unit="NLG" type="currency">f14.-</measure>
-               geft dus een uitgave van papier per week van <measure unit="NLG" type="currency"
-                  >486</measure> x <measure unit="NLG" type="currency">f 14-</measure> = <measure
-                  unit="NLG" type="currency">f68.04</measure>. </p>
+               </table> De drukstof gerekend op <measure unit="NLG" type="currency" quantity="14"
+                  >f14.-</measure> geft dus een uitgave van papier per week van <measure unit="NLG"
+                  type="currency" quantity="486">486</measure> x <measure unit="NLG" type="currency"
+                  quantity="14">f 14-</measure> = <measure unit="NLG" type="currency"
+                  quantity="68.04">f68.04</measure>. </p>
          </div>
          <div>
             <head>Totaal</head>
@@ -189,27 +197,33 @@
                Heraut zal dus kosten per week: <table rows="6" cols="2">
                   <row role="data">
                      <cell role="label">Zetten Corrigeeren &amp; Opmaken</cell>
-                     <cell role="data"><measure unit="NLG" type="currency"/>195.-</cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="195"
+                        />195.-</cell>
                   </row>
                   <row role="data">
                      <cell role="label">Drukken en Vouwen</cell>
-                     <cell role="data"><measure unit="NLG" type="currency"/>67.50</cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="67.5"
+                        />67.50</cell>
                   </row>
                   <row role="data">
                      <cell role="label">Papierrekening</cell>
-                     <cell role="data"><measure unit="NLG" type="currency"/>68.04</cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="68.04"
+                        />68.04</cell>
                   </row>
                   <row role="data">
                      <cell role="label"/>
-                     <cell role="data"><measure unit="NLG" type="currency"/>f 330.54</cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="330.54"/>f
+                        330.54</cell>
                   </row>
                   <row role="data">
                      <cell role="label">plus 30 % opslag</cell>
-                     <cell role="data"><measure unit="NLG" type="currency"/>99.16</cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="99.16"
+                        />99.16</cell>
                   </row>
                   <row role="data">
                      <cell role="label">totaal onkosten per week</cell>
-                     <cell role="data"><measure unit="NLG" type="currency"/>f 429.70</cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="429.7"/>f
+                        429.70</cell>
                   </row>
                </table> Deze 30 proc. opslag dient voor: vergoeding<note>Fr. v. v. pl.</note><pb
                   n="3"/>
@@ -224,17 +238,19 @@
                <table rows="3" cols="2">
                   <row role="data">
                      <cell role="label">3000 Abonn. Standaard a <measure unit="NLG" type="currency"
-                           >f 10.-</measure>p. jaar</cell>
-                     <cell role="data"><measure unit="NLG" type="currency">f 30000</measure></cell>
+                           quantity="10">f 10.-</measure>p. jaar</cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="30000">f
+                           30000</measure></cell>
                   </row>
                   <row role="data">
                      <cell role="label">3000 id Heraut - 4.80 "</cell>
-                     <cell role="data"><measure unit="NLG" type="currency">f 14400</measure></cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="14400">f
+                           14400</measure></cell>
                   </row>
                   <row role="data">
                      <cell role="data"/>
-                     <cell role="data"><measure unit="NLG" type="currency">f
-                        44400.=</measure></cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="444000">f
+                           44400.=</measure></cell>
                   </row>
                </table>
             </div>
@@ -242,20 +258,22 @@
                <head> Advertentiën </head>
                <table rows="3" cols="2">
                   <row role="data">
-                     <cell role="label">De Standaard p/wk <measure unit="NLG" type="currency">f
-                           150.-</measure>of p/j 52 x<measure type="currency" unit="NLG">f.
-                           150</measure> jaar</cell>
-                     <cell role="data"><measure unit="NLG" type="currency">f 7800</measure></cell>
+                     <cell role="label">De Standaard p/wk <measure unit="NLG" type="currency"
+                           quantity="150">f 150.-</measure>of p/j 52 x<measure type="currency"
+                           unit="NLG" quantity="150">f. 150</measure> jaar</cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="7800">f
+                           7800</measure></cell>
                   </row>
                   <row role="data">
                      <cell role="label">De Heraut " " 25.= " " 52 x <measure unit="NLG"
-                           type="currency">1300</measure></cell>
-                     <cell role="data"><measure unit="NLG" type="currency">f 14400</measure></cell>
+                           type="currency" quantity="1300">1300</measure></cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="14400">f
+                           14400</measure></cell>
                   </row>
                   <row role="data">
                      <cell role="data"/>
-                     <cell role="data"><measure unit="NLG" type="currency">f
-                        44400.=</measure></cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="444000">f
+                           44400.=</measure></cell>
                   </row>
                </table>
             </div>
@@ -263,12 +281,13 @@
                <table rows="3" cols="2">
                   <row role="data">
                      <cell role="label"/>
-                     <cell role="data"><measure unit="NLG" type="currency">" 9100.=</measure></cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="9100">"
+                           9100.=</measure></cell>
                   </row>
                   <row role="data">
                      <cell role="label">Totaal onvangsten p/jaar</cell>
-                     <cell role="data"><measure unit="NLG" type="currency">f
-                        53500.=</measure></cell>
+                     <cell role="data"><measure unit="NLG" type="currency" quantity="53500">f
+                           53500.=</measure></cell>
                   </row>
                </table>
                <p>Aangezien hetzelfde personeel van "de Standaard" ook "de Heraut" kan zetten,
@@ -283,9 +302,9 @@
             <div>
                <p>3000 Exemplaren "De Heraut" voor Zetten, Drukken, Bandeeren, Expedieëren, Bezorgen
                   in de stad met bijlevering van papier per nummer <measure unit="NLG"
-                     type="currency">f. 72.07</measure> of per jaar 52 x <measure type="currency"
-                     unit="NLG">f 72.07</measure> of <measure unit="NLG" type="currency">f
-                     3747.64</measure>.</p>
+                     type="currency" quantity="72.07">f. 72.07</measure> of per jaar 52 x <measure
+                     type="currency" unit="NLG" quantity="72.07">f 72.07</measure> of <measure
+                     unit="NLG" type="currency" quantity="3747.64">f 3747.64</measure>.</p>
                <p>Voor Kantoorhuur, Administratie, &amp; anderen Onkosten zou "de Heraut" als
                   weekblad gevoegelijk 1/6 kunnen bijdragen, tegen 5/6 van "De Standaard" die 6 x
                   per week verschijnt.</p>
