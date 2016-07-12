@@ -2,7 +2,7 @@
 <!-- XBRL Instance Document for De Heraut, 1878-1887 -->
 <!-- Adapted from http://xbrl.squarespace.com/journal/2008/12/18/hello-world-xbrl-example.html -->
 <xbrl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.xbrl.org/2003/instance xbrl-kranten.xsd"
+   xsi:schemaLocation="http://www.xbrl.org/2003/instance xbrl-taxonomy.xsd"
    xmlns="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase"
    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance"
    xmlns:kranten="http://library.vanderbilt.edu/xbrl/dutch-papers"
